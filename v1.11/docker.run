@@ -1,2 +1,1 @@
-docker run -d --restart always --name unbound-dns -p 53:53/udp -p 53:53/tcp unbound-dns:v1.1
-
+docker run -d --restart always --name unbound-dns -p 53:53/udp -p 53:53/tcp pinyo/unbound-dns:v1.11

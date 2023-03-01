@@ -16,3 +16,4 @@ RUN cp /usr/share/zoneinfo/Europe/Budapest /etc/localtime \
     && chmod +x /start.sh
 
 CMD [ "/start.sh" ]
+
