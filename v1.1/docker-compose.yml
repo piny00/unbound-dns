@@ -1,0 +1,10 @@
+version: '2'
+services:
+  server:
+    image: dregistry.fotex.net/unbound-dns:v1.1
+    ports:
+    - 53:53/tcp
+    - 53:53/udp
+    labels:
+      io.rancher.container.pull_image: always
+      io.fotexnet.floating-ip.0: 10.6.108.184/24
