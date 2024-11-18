@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   server:
-    image: dregistry.fotex.net/unbound-dns:v1.2-bud02
+    image: dregistry.fotex.net/unbound-dns:v1.2-bud01
     ports:
     - "53:53/tcp"
     - "53:53/udp"
